@@ -251,7 +251,7 @@ def train_regression(model, criterion, optimizer, number_of_epochs, train_loader
             inputs, targets = inputs.to(device), targets.to(device)
             optimizer.zero_grad()
             outputs = model(inputs)
-            loss = criterion(outputs.squeeze(), targets)
+            loss = criterion(outputs.squeeze(), targets.squeeze())
             loss.backward()
             optimizer.step()
             running_loss += loss.item()

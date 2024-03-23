@@ -1,0 +1,15 @@
+numpy
+scikit-learn
+seaborn
+torch
+torchviz
+torchvision
+torchtext
+tensorboard
+pandas
+tqdm
+ipykernel
+onnx
+portalocker
+pyarrow
+jupyter

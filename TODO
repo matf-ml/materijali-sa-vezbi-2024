@@ -1,0 +1,11 @@
+10- regresija
+    * nadji dataset
+    * proveri kako se model cuva u onnx formatu
+    * pronadji da li moze da se plotuje nekako stvar
+
+11- ConvNet1D
+    * nadji imdb dataset
+    * adaptacija u torch umesto kerasa
+
+12- srediti da autenkoderi koriste torch
+    didatak VAE
